@@ -1,0 +1,101 @@
+#pinion-backend .pinion-backend-renderer-PageRenderer {
+  color:#1a292b;
+  min-height:60px;
+  min-width:300px;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer a {
+  color:#1a292b;
+  text-decoration:none;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper {
+  float:left;
+  margin:10px 100px 10px 20px;
+  font-size:12px;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-url:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-url .pinion-url-site {
+  float:left;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:12px;
+  font-weight:900;
+  line-height:22px;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-url .pinion-backend-input-UpdateTextbox {
+  float:left;
+  padding:0;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-url .pinion-backend-input-UpdateTextbox .pinion-textContainer .pinion-text { font-weight:900; }
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-title .pinion-backend-input-TranslationTextbox:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-title .pinion-backend-input-TranslationTextbox .pinion-backend-inputwrapper { float:left; }
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-author {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:12px;
+  position:relative;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-author .author-title { font-style:italic; }
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-author .author-name {
+  position:absolute;
+  left:125px;
+  font-weight:900;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-link {
+  cursor:pointer;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:11px;
+  position:absolute;
+  right:100px;
+  bottom:9px;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-link > .pinion-backend-icon-link {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-760px 0;
+  width:12px;
+  height:12px;
+  float:left;
+  margin-right:3px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-link > .pinion-text {
+  float:left;
+  cursor:pointer;
+  color:#107886;
+}
+#pinion-backend .pinion-backend-renderer-PageRenderer .pinion-textWrapper .pinion-backend-page-link:hover > .pinion-text { color:#185859; }
+#pinion-backend .pinion-backend-renderer-PageRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

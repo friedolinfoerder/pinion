@@ -1,0 +1,34 @@
+#pinion-backend .pinion-backend-renderer-SimpleRuleRenderer {
+  color:#1a292b;
+  height:30px;
+  min-width:265px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleRuleRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleRuleRenderer .pinion-backend-icon-rule {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-720px 0;
+  width:15px;
+  height:12px;
+  position:absolute;
+  top:9px;
+  left:9px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleRuleRenderer .rule-name {
+  position:absolute;
+  top:9px;
+  left:30px;
+  font-size:12px;
+  font-weight:900;
+}
+#pinion-backend .pinion-backend-renderer-SimpleRuleRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

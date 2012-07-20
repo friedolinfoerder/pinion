@@ -1,0 +1,55 @@
+#pinion-FrontendBox .pinion-modules-textfield-Preview { cursor:pointer; }
+#pinion-FrontendBox .pinion-modules-textfield-Preview * { cursor:pointer; }
+#pinion-backend .pinion-modules-textfield-Preview, #pinion-FrontendBox .pinion-modules-textfield-Preview { position:relative; }
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info {
+  height:20px;
+  border-bottom:1px solid #8c9b9b;
+  padding-bottom:5px;
+  clear:both;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info:after, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages {
+  height:20px;
+  width:100%;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags { clear:both; }
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags:after, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags > li, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-preview-info > .pinion-languages > .pinion-flags > li {
+  float:left;
+  margin-right:3px;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move {
+  height:10000px;
+  width:240px;
+  position:absolute;
+  top:30px;
+  left:0;
+  overflow:hidden;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text {
+  position:absolute;
+  left:0;
+  top:0;
+}
+#pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text p, #pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text div, #pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text ul, #pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text li, #pinion-backend .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text a, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text p, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text div, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text ul, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text li, #pinion-FrontendBox .pinion-modules-textfield-Preview > .pinion-vertical-move > .pinion-textfield-text a {
+  background:none;
+  margin:0;
+  padding:0;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  color:#edf2f2;
+}

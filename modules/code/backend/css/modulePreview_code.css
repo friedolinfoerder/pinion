@@ -1,0 +1,29 @@
+#pinion-FrontendBox .pinion-modules-code-Preview { cursor:pointer; }
+#pinion-FrontendBox .pinion-modules-code-Preview * { cursor:pointer; }
+.cms .pinion-modules-code-Preview, #pinion-backend .pinion-modules-code-Preview, #pinion-FrontendBox .pinion-modules-code-Preview { position:relative; }
+.cms .pinion-modules-code-Preview > .pinion-vertical-move, #pinion-backend .pinion-modules-code-Preview > .pinion-vertical-move, #pinion-FrontendBox .pinion-modules-code-Preview > .pinion-vertical-move {
+  height:10000px;
+  width:240px;
+  position:absolute;
+  top:0px;
+  left:0;
+  overflow:hidden;
+}
+.cms .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text, #pinion-backend .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text, #pinion-FrontendBox .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text {
+  position:absolute;
+  left:0;
+  top:0;
+  background:none;
+  margin:0;
+  padding:0;
+  font-family:monospace;
+  font-size:11px;
+  line-height:14px;
+  color:#edf2f2;
+}
+.cms .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text *, #pinion-backend .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text *, #pinion-FrontendBox .pinion-modules-code-Preview > .pinion-vertical-move > .pinion-code-text * {
+  font-family:monospace;
+  font-size:11px;
+  line-height:14px;
+  color:#edf2f2;
+}

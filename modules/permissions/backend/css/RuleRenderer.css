@@ -1,0 +1,37 @@
+#pinion-backend .pinion-backend-renderer-RuleRenderer {
+  color:#1a292b;
+  min-height:20px;
+  min-width:300px;
+}
+#pinion-backend .pinion-backend-renderer-RuleRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-RuleRenderer .pinion-backend-icon-rule {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-720px 0;
+  width:15px;
+  height:12px;
+  position:absolute;
+  top:9px;
+  left:9px;
+}
+#pinion-backend .pinion-backend-renderer-RuleRenderer .pinion-backend-input-UpdateTextbox {
+  padding-left:30px;
+  padding-bottom:2px;
+  margin-right:40px;
+}
+#pinion-backend .pinion-backend-renderer-RuleRenderer .pinion-backend-input-UpdateTextbox .pinion-textContainer { position:relative; }
+#pinion-backend .pinion-backend-renderer-RuleRenderer .pinion-backend-input-UpdateTextbox .pinion-textContainer .pinion-text {
+  font-size:12px;
+  font-weight:900;
+}
+#pinion-backend .pinion-backend-renderer-RuleRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

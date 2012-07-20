@@ -1,0 +1,42 @@
+#pinion-backend .pinion-backend-renderer-WordRenderer {
+  color:#1a292b;
+  min-height:55px;
+  min-width:300px;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer .pinion-flag {
+  float:left;
+  display:inline;
+  margin:10px 20px 10px 20px;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer .pinion-word {
+  float:left;
+  display:inline;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:200px;
+  margin-right:20px;
+  line-height:22px;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer .pinion-translation {
+  float:left;
+  display:inline;
+  margin-top:5px;
+  width:360px;
+  margin-right:50px;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer > .pinion-renderer-bar { top:7px; }
+#pinion-backend .pinion-backend-renderer-WordRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}
+#pinion-backend .pinion-backend-renderer-WordRenderer.pinion-new { min-height:40px; }
+#pinion-backend .pinion-backend-renderer-WordRenderer.pinion-new > .pinion-renderer-bar { top:10px; }

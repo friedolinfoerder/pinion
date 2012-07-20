@@ -1,0 +1,107 @@
+#pinion-FrontendBox .pinion-modules-nivoslideshow-Preview { cursor:pointer; }
+#pinion-FrontendBox .pinion-modules-nivoslideshow-Preview * { cursor:pointer; }
+.cms .pinion-modules-nivoslideshow-Preview, #pinion-backend .pinion-modules-nivoslideshow-Preview, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview {
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  text-align:center;
+  clear:both;
+}
+.cms .pinion-modules-nivoslideshow-Preview:after, #pinion-backend .pinion-modules-nivoslideshow-Preview:after, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info {
+  height:20px;
+  border-bottom:1px solid #8c9b9b;
+  padding-bottom:5px;
+  clear:both;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info:after, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info:after, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width, .cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height {
+  height:20px;
+  width:50%;
+  float:left;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon, .cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon {
+  float:left;
+  margin-right:5px;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-text, .cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-text, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-text, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-text, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-text, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:20px;
+  height:20px;
+  color:#edf2f2;
+  float:left;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-width > .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-1040px -40px;
+  width:20px;
+  height:20px;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-preview-info > .pinion-height > .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-1020px -40px;
+  width:20px;
+  height:20px;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move {
+  width:10000px;
+  height:77px;
+  position:absolute;
+  left:0;
+  top:45px;
+  overflow:hidden;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images {
+  position:absolute;
+  top:0;
+  left:0;
+  height:77px;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images:after, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images:after, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li {
+  margin-right:5px;
+  height:77px;
+  float:left;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li img, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li img, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-horizontal-move > ul.pinion-images li img {
+  -moz-box-shadow:0 0 3px #1a292b;
+  -webkit-box-shadow:0 0 3px #1a292b;
+  box-shadow:0 0 3px #1a292b;
+  height:75px;
+  border:1px solid #8c9b9b;
+}
+.cms .pinion-modules-nivoslideshow-Preview > .pinion-count, #pinion-backend .pinion-modules-nivoslideshow-Preview > .pinion-count, #pinion-FrontendBox .pinion-modules-nivoslideshow-Preview > .pinion-count {
+  position:absolute;
+  top:145px;
+  left:0;
+  height:12px;
+  width:100%;
+  text-align:center;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:12px;
+  color:#edf2f2;
+}

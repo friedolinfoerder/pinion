@@ -1,0 +1,94 @@
+#pinion-backend .pinion-backend-renderer-ResourceRenderer {
+  color:#1a292b;
+  min-height:50px;
+  min-width:300px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-icon-allow {
+  position:absolute;
+  left:12px;
+  top:10px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-40px -140px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-textWrapper {
+  padding:10px 60px 10px 50px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-textWrapper .pinion-moduleTitle {
+  font-size:12px;
+  font-weight:900;
+  padding-right:60px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-textWrapper .pinion-resource {
+  margin-top:3px;
+  font-size:11px;
+  padding-right:60px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar {
+  top:7px;
+  right:2px;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar .pinion-resourceOption {
+  position:relative;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar .pinion-resourceOption .pinion-text {
+  display:none;
+  position:absolute;
+  right:23px;
+  top:3px;
+  font-weight:900;
+  cursor:pointer;
+  white-space:nowrap;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar .pinion-resourceOption .pinion-icon {
+  position:absolute;
+  top:0;
+  right:0;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-640px -120px;
+  width:20px;
+  height:20px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar .pinion-resourceOption:hover .pinion-text {
+  display:block;
+  color:#88a852;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer .pinion-renderer-bar .pinion-resourceOption:hover .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-640px -100px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.pinion-allowed .pinion-icon-allow {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-70px -140px;
+  width:30px;
+  height:30px;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.pinion-allowed .pinion-renderer-bar .pinion-resourceOption .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-620px -120px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.pinion-allowed .pinion-renderer-bar .pinion-resourceOption:hover .pinion-text { color:#e1604b; }
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.pinion-allowed .pinion-renderer-bar .pinion-resourceOption:hover .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-620px -80px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.ui-selected .pinion-textWrapper .pinion-moduleTitle, #pinion-backend .pinion-backend-renderer-ResourceRenderer.ui-selected .pinion-textWrapper .pinion-resource { color:#edf2f2; }
+#pinion-backend .pinion-backend-renderer-ResourceRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}
