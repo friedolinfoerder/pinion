@@ -1,0 +1,28 @@
+.headline-image-text {
+    margin-bottom: 20px;
+}
+
+.headline-image-text .image {
+    float: left;
+    padding-right: 10px;
+}
+
+.headline-image-text a {
+    color: #107886;
+}
+
+.clearfix:after {  /* für Firefox, IE8, Opera, Safari, etc. */
+    content: ".";  
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ 
+* + html .clearfix { /* für IE7 */
+    display: inline-block;
+}
+ 
+* html .clearfix { /* für IE6 */
+	height: 1%;
+}

@@ -1,0 +1,33 @@
+.pinion-module-downloader {
+  float:left;
+  width:220px;
+}
+.pinion-module-downloader a { width:100%; }
+.pinion-module-downloader a .download-icon {
+  width:20px;
+  height:20px;
+  background: url("../images/download.png") 0 0;
+  margin:0 auto;
+}
+.pinion-module-downloader a .download-text {
+  font-family:'Asap', sans-serif;
+  font-size:19px;
+  font-weight:900;
+  font-style:italic;
+  color:#107886;
+  width:100%;
+  text-align:center;
+}
+.pinion-module-downloader a .download-info {
+  font-family:'Asap', sans-serif;
+  font-size:11px;
+  font-weight:900;
+  font-style:italic;
+  color:#8c9b9b;
+  width:100%;
+  text-align:center;
+}
+.pinion-module-downloader a:hover { 
+    background-position: 0 20px;
+}
+.pinion-module-downloader a:hover > .download-title { color:#185859; }

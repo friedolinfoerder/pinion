@@ -1,0 +1,26 @@
+#footer ul.footer-menu:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#footer ul.footer-menu > li { float:right; }
+#footer ul.footer-menu > li > a {
+  color:#edf2f2;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+#footer ul.footer-menu > li > a:after {
+  content:"|";
+  color:#edf2f2;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:14px;
+  padding:0 5px;
+}
+#footer ul.footer-menu > li:first-child > a:after {
+  content:"";
+  padding:0;
+}
+#footer ul.footer-menu > li:hover a { color:#ffffff; }

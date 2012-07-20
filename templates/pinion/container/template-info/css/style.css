@@ -1,0 +1,46 @@
+.pinion-template-info {
+  position:relative;
+  clear:both;
+  margin-bottom:50px;
+  height:180px;
+}
+.pinion-template-info:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.pinion-template-info > .pinion-template-icon {
+  position:absolute;
+  top:0;
+  left:0;
+}
+.pinion-template-info > h1.pinion-module-info-headline {
+  margin-left:250px;
+  margin-right:10px;
+  float:left;
+}
+.pinion-template-info > h2.pinion-module-info-headline, .pinion-template-info > h3.pinion-module-info-headline, .pinion-template-info > h4.pinion-module-info-headline, .pinion-template-info > h5.pinion-module-info-headline, .pinion-template-info > h6.pinion-module-info-headline {
+  float:left;
+  padding-top:3px;
+}
+.pinion-template-info > .pinion-module-info-text {
+  margin-left:250px;
+  padding-top:5px;
+  padding-bottom:5px;
+  clear:both;
+  height:90px;
+  overflow:hidden;
+}
+.pinion-template-info > .pinion-module-info-link {
+  position:absolute;
+  left:250px;
+  bottom:25px;
+}
+.pinion-template-info > .pinion-module-info-downloader {
+  position:absolute;
+  left:250px;
+  bottom:0;
+}

@@ -1,0 +1,24 @@
+.pinion-search:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.pinion-search form input.textinput {
+  width:220px;
+  float:left;
+  color:#8c9b9b;
+}
+.pinion-search form input.icon-search {
+  float:left;
+  width:20px;
+  height:20px;
+  margin-left:5px;
+  border:none;
+  background: url("../images/search.png") 0 0 !important;
+  cursor: pointer;
+  text-indent:-9999px;
+  overflow:hidden;
+}

@@ -1,0 +1,24 @@
+.pinion-template-credits {
+  float:left;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  line-height:22px;
+  color:#394448;
+  padding-top:3px;
+  padding-bottom:3px;
+  height:180px;
+  width:210px;
+  padding-right:20px;
+  vertical-align:text-bottom;
+  position:relative;
+}
+.pinion-template-credits ul, .pinion-template-credits ol {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  line-height:22px;
+  color:#394448;
+  width:210px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}

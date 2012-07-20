@@ -1,0 +1,8 @@
+.textfield.small {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  line-height:20px;
+  color:#394448;
+  padding-bottom:20px;
+}
+.textfield.small p { padding-bottom:10px; }

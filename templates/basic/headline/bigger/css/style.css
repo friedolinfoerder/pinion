@@ -1,0 +1,66 @@
+h1.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:35px;
+  line-height:35px;
+  padding-top:33px;
+  padding-bottom:22px;
+}
+h2.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:30px;
+  line-height:30px;
+  padding-top:33px;
+  padding-bottom:10px;
+}
+h3.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:26px;
+  line-height:26px;
+  padding-top:33px;
+  padding-bottom:10px;
+}
+h4.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:22px;
+  line-height:22px;
+  padding-top:33px;
+  padding-bottom:10px;
+}
+h5.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:20px;
+  line-height:20px;
+  padding-top:33px;
+  padding-bottom:10px;
+}
+h6.headline.bigger {
+  font-family:;
+  clear:both;
+  color:#394448;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size:18px;
+  line-height:18px;
+  padding-top:33px;
+  padding-bottom:10px;
+}
