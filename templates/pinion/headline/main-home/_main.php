@@ -1,1 +1,0 @@
-<<?php $tag() ?> class="pinion-main-home-headline"><?php $text() ?></<?php $tag() ?>>

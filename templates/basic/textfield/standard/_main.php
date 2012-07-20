@@ -1,1 +1,0 @@
-<div class="textfield standard"><?php $text() ?></div>
