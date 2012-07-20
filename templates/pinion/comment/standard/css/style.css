@@ -1,0 +1,140 @@
+.comment > h1.comment-headline {
+  font-family:'Asap', sans-serif;
+  font-style:italic;
+  color:#1a292b;
+  font-size:21px;
+  line-height:21px;
+  padding-bottom:10px;
+}
+.comment > form.comment-form > div { padding:5px 0; }
+.comment > form.comment-form > div > label {
+  float:left;
+  width:105px;
+  font-style:italic;
+  font-size:12px;
+  line-height:20px;
+  color:#1a292b;
+}
+.comment > form.comment-form > div > .inputwrapper { margin-left:125px; }
+.comment > form.comment-form > div > .inputwrapper > input, .comment > form.comment-form > div > .inputwrapper > textarea {
+  -webkit-border-radius:5px;
+  -khtml-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #8c9b9b;
+  background:#ffffff;
+  margin-bottom:3px;
+  padding-left:3px;
+  padding-right:0;
+  cursor:text;
+}
+.comment > form.comment-form > div > .inputwrapper > input:hover, .comment > form.comment-form > div > .inputwrapper > textarea:hover { background:#f5f5f5; }
+.comment > form.comment-form > div > .inputwrapper > input:focus, .comment > form.comment-form > div > .inputwrapper > textarea:focus {
+  border:1px solid #1a292b;
+  background:#f9f9f9;
+}
+.comment > form.comment-form > div > .inputwrapper > input {
+  width:250px;
+  height:20px;
+  line-height:20px;
+}
+.comment > form.comment-form > div > .inputwrapper > textarea {
+  width:500px;
+  height:150px;
+  line-height:20px;
+}
+.comment > form.comment-form > input {
+  height:25px;
+  padding:0 20px 2px 20px;
+  width:auto;
+  cursor:pointer;
+  background:#ffffff;
+  -webkit-border-radius:5px;
+  -khtml-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #8c9b9b;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#1a292b;
+  font-weight:900;
+  font-size:12px;
+  margin-left:125px;
+  margin-top:3px;
+}
+.comment > .comment-view {
+  padding-top:35px;
+  padding-bottom:35px;
+  border-bottom:1px dashed #8c9b9b;
+}
+.comment > .comment-view > .comment-name {
+  font-size:18px;
+  line-height:18px;
+  font-family:'Asap', sans-serif;
+  color:#1a292b;
+  font-weight:900;
+  font-style:italic;
+  padding-bottom:5px;
+}
+.comment > .comment-view > .comment-mail { padding-bottom:5px; }
+.comment > .comment-view > .comment-mail:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.comment > .comment-view > .comment-mail > .comment-mail-icon {
+  width:12px;
+  height:12px;
+  background:#333333;
+  float:left;
+  margin-right:5px;
+}
+.comment > .comment-view > .comment-mail > a.comment-mail-text {
+  float:left;
+  font-size:12px;
+  line-height:12px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#107886;
+}
+.comment > .comment-view > .comment-mail > a.comment-mail-text:hover { color:#185859; }
+.comment > .comment-view > .comment-homepage { padding-bottom:5px; }
+.comment > .comment-view > .comment-homepage:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.comment > .comment-view > .comment-homepage > .comment-homepage-icon {
+  width:12px;
+  height:12px;
+  background:#333333;
+  float:left;
+  margin-right:5px;
+}
+.comment > .comment-view > .comment-homepage > a.comment-homepage-text {
+  float:left;
+  font-size:12px;
+  line-height:12px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#107886;
+}
+.comment > .comment-view > .comment-homepage > a.comment-homepage-text:hover { color:#185859; }
+.comment > .comment-view > .comment-subject {
+  font-size:18px;
+  line-height:18px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#1a292b;
+  font-weight:900;
+  font-style:italic;
+  padding-bottom:5px;
+}
+.comment > .comment-view > .comment-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  line-height:22px;
+  color:#394448;
+}

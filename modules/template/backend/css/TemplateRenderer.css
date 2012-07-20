@@ -1,0 +1,140 @@
+#pinion-backend .pinion-backend-renderer-TemplateRenderer {
+  color:#1a292b;
+  min-height:200px;
+  min-width:935px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer a {
+  color:#1a292b;
+  text-decoration:none;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-colorfield-left, #pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-colorfield-right {
+  background:#e1604b;
+  height:100%;
+  width:15px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-colorfield-left {
+  position:absolute;
+  top:0;
+  left:0;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-colorfield-right {
+  position:absolute;
+  top:0;
+  right:0;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-template-icon {
+  position:absolute;
+  left:30px;
+  top:10px;
+  width:240px;
+  height:180px;
+  background:#ffffff;
+  -moz-box-shadow:0 0 3px #1a292b;
+  -webkit-box-shadow:0 0 3px #1a292b;
+  box-shadow:0 0 3px #1a292b;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-template-icon > img {
+  width:240px;
+  height:180px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper { padding:12px 50px 12px 290px; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-headlineWrapper { margin-bottom:3px; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-headlineWrapper:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-headlineWrapper .pinion-template-title {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:900;
+  float:left;
+  margin-right:5px;
+  line-height:16px;
+  padding-bottom:3px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-headlineWrapper .pinion-template-version {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  float:left;
+  margin-right:10px;
+  margin-top:2px;
+  line-height:16px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-headlineWrapper .pinion-template-name {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-style:italic;
+  float:left;
+  margin-top:2px;
+  line-height:16px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-template-author { margin-bottom:5px; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-template-author div.pinion-backend-icon-author {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-740px -120px;
+  width:12px;
+  height:12px;
+  margin-right:3px;
+  float:left;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-template-author > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:11px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-template-description {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:10px;
+  margin-top:10px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer > .pinion-textWrapper .pinion-template-description.pinion-noDescription { font-style:italic; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-template-moduleTemplates { padding:0px 30px 12px 290px; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-template-moduleTemplates > .pinion-backend-group-TitledGroup > div > .pinion-backend-list-Finder {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-template-moduleTemplates > .pinion-backend-group-TitledGroup > div > .pinion-backend-list-Finder > .pinion-backend-list-floatContainer > .pinion-backend-list-Finder-labels { display:none; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-renderer-bar .pinion-template-use {
+  cursor:pointer;
+  position:relative;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-renderer-bar .pinion-template-use .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  display:none;
+  position:absolute;
+  right:23px;
+  top:3px;
+  font-weight:900;
+  white-space:nowrap;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-renderer-bar .pinion-template-use .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-400px -120px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-renderer-bar .pinion-template-use:hover .pinion-text {
+  display:block;
+  color:#88a852;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer .pinion-renderer-bar .pinion-template-use:hover .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-400px -100px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-TemplateRenderer.pinion-active > .pinion-colorfield-left, #pinion-backend .pinion-backend-renderer-TemplateRenderer.pinion-active > .pinion-colorfield-right { background:#88a852; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer.pinion-active > .pinion-template-use, #pinion-backend .pinion-backend-renderer-TemplateRenderer.pinion-active > .pinion-delete { display:none; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer.pinion-active > .pinion-renderer-bar .pinion-template-use { display:none; }
+#pinion-backend .pinion-backend-renderer-TemplateRenderer.dirty > .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:3px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-580px -60px;
+  width:8px;
+  height:8px;
+}

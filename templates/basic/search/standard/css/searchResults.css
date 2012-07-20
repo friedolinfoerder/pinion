@@ -1,0 +1,21 @@
+.search-results { font-family:; }
+.search-results .search-result {
+  font-size:12px;
+  color:;
+  padding-bottom:5px;
+}
+.search-results .search-result .search-count { font-weight:900; }
+.search-results .search-result .page-link {
+  color:;
+  font-weight:900;
+}
+.search-results .search-result .page-link:hover { color:; }
+.search-results .search-text { padding-bottom:10px; }
+.search-results .search-text h1, .search-results .search-text h2, .search-results .search-text h3, .search-results .search-text h4, .search-results .search-text h5, .search-results .search-text h6, .search-results .search-text div, .search-results .search-text span, .search-results .search-text p, .search-results .search-text ul, .search-results .search-text li {
+  color:;
+  font-size:13px;
+  text-decoration:none;
+  list-style:none;
+  font-weight:100;
+  font-style:normal;
+}

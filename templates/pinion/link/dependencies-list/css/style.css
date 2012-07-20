@@ -1,0 +1,15 @@
+a.pinion-dependency {
+  display:inline;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  text-decoration:none;
+  color:#107886;
+}
+a.pinion-dependency:after {
+  content:", ";
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color:#394448;
+}
+a.pinion-dependency:last-child:after { content:""; }
+a.pinion-dependency:hover { color:#185859; }

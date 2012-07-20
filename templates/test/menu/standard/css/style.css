@@ -1,0 +1,46 @@
+ul.mainmenu{
+    margin: 0;
+    padding: 0;
+}
+
+ul.mainmenu li {
+    margin: 0;
+    line-height: 24px;
+    display: block;
+}
+
+ul.mainmenu li a {
+    background: #99b2ff;
+    height: 24px;
+    display: block;
+    font-size: 12px;
+    padding-left: 22px;
+    color: #FFF;
+}
+
+ul.mainmenu li a:hover{
+    font-weight: 900;
+}
+
+ul.mainmenu li a.active {
+    background: #fff no-repeat;
+    font-weight: 900;
+    color: #99b2ff;
+}
+
+ul.submenu {
+    margin-left: 20px;
+}
+
+ul.submenu li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.submenu li.subaktiv{
+    padding-top: 0px;
+    height: auto;
+    background: none;
+    font-weight: 900;
+}
+

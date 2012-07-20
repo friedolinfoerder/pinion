@@ -1,0 +1,63 @@
+#pinion-FrontendBox .pinion-modules-downloader-Preview { cursor:pointer; }
+#pinion-FrontendBox .pinion-modules-downloader-Preview * { cursor:pointer; }
+.cms .pinion-modules-downloader-Preview, #pinion-backend .pinion-modules-downloader-Preview, #pinion-FrontendBox .pinion-modules-downloader-Preview {
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+  text-align:center;
+  clear:both;
+}
+.cms .pinion-modules-downloader-Preview:after, #pinion-backend .pinion-modules-downloader-Preview:after, #pinion-FrontendBox .pinion-modules-downloader-Preview:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.cms .pinion-modules-downloader-Preview > .pinion-preview-info, #pinion-backend .pinion-modules-downloader-Preview > .pinion-preview-info, #pinion-FrontendBox .pinion-modules-downloader-Preview > .pinion-preview-info {
+  height:20px;
+  border-bottom:1px solid #8c9b9b;
+  padding-bottom:5px;
+  clear:both;
+}
+.cms .pinion-modules-downloader-Preview > .pinion-preview-info:after, #pinion-backend .pinion-modules-downloader-Preview > .pinion-preview-info:after, #pinion-FrontendBox .pinion-modules-downloader-Preview > .pinion-preview-info:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.cms .pinion-modules-downloader-Preview > .pinion-preview-info > .pinion-downloader-label, #pinion-backend .pinion-modules-downloader-Preview > .pinion-preview-info > .pinion-downloader-label, #pinion-FrontendBox .pinion-modules-downloader-Preview > .pinion-preview-info > .pinion-downloader-label {
+  height:20px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:20px;
+  height:20px;
+  color:#edf2f2;
+}
+.cms .pinion-modules-downloader-Preview > .pinion-icon-file, #pinion-backend .pinion-modules-downloader-Preview > .pinion-icon-file, #pinion-FrontendBox .pinion-modules-downloader-Preview > .pinion-icon-file {
+  display:block;
+  position:absolute;
+  top:70px;
+  left:110px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-1120px -40px;
+  width:20px;
+  height:20px;
+}
+.cms .pinion-modules-downloader-Preview > .pinion-downloader-filename, #pinion-backend .pinion-modules-downloader-Preview > .pinion-downloader-filename, #pinion-FrontendBox .pinion-modules-downloader-Preview > .pinion-downloader-filename {
+  position:absolute;
+  top:95px;
+  left:0;
+  height:20px;
+  width:100%;
+  text-align:center;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:20px;
+  height:20px;
+  color:#edf2f2;
+}

@@ -1,0 +1,119 @@
+/* import font from google-fonts*/
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+/*no normal frontend-editing styles*/
+.pinion-todo-note {
+    /*no opacity*/
+    opacity: 1 !important; /*for most browsers*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100") !important; /*for IE8*/
+    filter: alpha(opacity=100) !important; /*for IE 5-7*/
+}
+
+.pinion-todo-note:before {
+    /*no background*/
+    content:"";
+    background: none !important;
+}
+
+.pinion-todo-note:hover,
+.pinion-todo-note.pinion-hover {
+    /*no shadow*/
+    -moz-box-shadow: 0 0 0 0 !important;
+    -webkit-box-shadow: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+/*styling*/
+.pinion-todo-note {
+    margin-bottom: 59px; /*height of .note-bottom*/
+}
+
+.pinion-todo-note .note-top { 
+    clear: both;
+    margin-left: 1px;
+    overflow: hidden;
+    height: 100%;
+    width: 250px;
+}
+
+.pinion-todo-note .note-top .note-text-container { 
+    float: left;
+    width: 242px;
+    background: #EDC147;
+}
+
+.pinion-todo-note .note-top .note-text-container .note-text {
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+    font-size: 14px;
+}
+
+.pinion-todo-note .note-top .note-topRight { 
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+}
+
+.pinion-todo-note .note-top .note-topRight .note-topRight-corner {
+    width: 8px;
+    height: 7px;
+    background: url("../images/todo-note-topRight.png") no-repeat;
+}
+
+.pinion-todo-note .note-top .note-topRight .note-topRight-side {
+    width: 8px;
+    height: 100%;
+    background: url("../images/todo-note-middleRight.png") repeat-y;
+    
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.pinion-todo-note .note-bottom { 
+    position: absolute;
+    bottom: -59px;
+    height: 59px;
+    width: 250px;
+}
+
+.pinion-todo-note .note-bottom .note-bottomLeft { 
+    width: 77px;
+    height: 59px;
+    background: url("../images/todo-note-bottomLeft.png") no-repeat;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pinion-todo-note .note-bottom .note-bottomMiddle { 
+    height: 59px;
+    background: url("../images/todo-note-bottomMiddle.png") repeat-x;
+
+    margin-left: 77px;
+    margin-right: 42px; /*49 - 7*/
+}
+
+.pinion-todo-note .note-bottom .note-bottomMiddle .note-created { 
+    font-family: 'Handlee', cursive;
+    font-size: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.pinion-todo-note .note-bottom .note-bottomRight { 
+    width: 49px;
+    height: 59px;
+    background: url("../images/todo-note-bottomRight.png") no-repeat;
+    
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+
+

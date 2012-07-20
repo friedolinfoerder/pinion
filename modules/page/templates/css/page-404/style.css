@@ -1,0 +1,47 @@
+@import url("http://fonts.googleapis.com/css?family=Asap:700italic,700,400italic,400");
+body { background:url("../../../../../pinion/assets/images/backgrounds/noise-bg.png"); }
+#pinion-page404 {
+  position:absolute;
+  top:33%;
+  left:50%;
+  margin-left:-350px;
+  margin-top:-100px;
+  width:700px;
+  height:300px;
+}
+#pinion-page404 > .pinion-logo {
+  position:absolute;
+  top:0px;
+  left:20px;
+  width:184px;
+  height:95px;
+  background:url('../../../../../pinion/assets/images/pinion-logo-white.png');
+}
+#pinion-page404 > .pinion-box {
+  width:100%;
+  padding-bottom:25px;
+  background:#edf2f2;
+  position:relative;
+  display:block;
+}
+#pinion-page404 > .pinion-box > .pinion-no-page {
+  position:absolute;
+  top:30px;
+  right:100px;
+  font-family:'Asap', sans-serif;
+  font-weight:700;
+  font-style:italic;
+  font-size:40px;
+  color:#185859;
+}
+#pinion-page404 > .pinion-box > .pinion-no-page-found {
+  margin-top:120px;
+  padding-top:120px;
+  margin-left:50px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size:18px;
+  color:#185859;
+  margin-bottom:15px;
+  line-height:30px;
+}

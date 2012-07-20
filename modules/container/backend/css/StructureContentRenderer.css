@@ -1,0 +1,91 @@
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer {
+  color:#1a292b;
+  min-height:60px;
+  min-width:450px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper {
+  float:left;
+  padding:12px 100px 13px 20px;
+  font-size:12px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-icon {
+  display:block;
+  width:25px;
+  height:25px;
+  float:left;
+  overflow:hidden;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-icon img { margin-top:-25px; }
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-name {
+  float:left;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:14px;
+  font-weight:900;
+  line-height:25px;
+  margin-left:5px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-count {
+  float:left;
+  margin-bottom:5px;
+  padding-left:25px;
+  padding-top:2px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-count:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-count > .pinion-icon {
+  float:left;
+  margin-right:6px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-940px 0;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer .pinion-textWrapper .pinion-module .pinion-module-count > .pinion-text {
+  padding-top:4px;
+  float:left;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  color:#1a292b;
+  font-size:13px;
+  font-weight:900;
+}
+#pinion-backend .pinion-backend-renderer-StructureContentRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

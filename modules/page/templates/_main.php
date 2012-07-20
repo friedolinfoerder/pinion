@@ -1,0 +1,1 @@
+<div><?php $area("content") ?></div>

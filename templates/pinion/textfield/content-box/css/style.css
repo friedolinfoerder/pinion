@@ -1,0 +1,11 @@
+.content-box-content { padding:10px; }
+.content-box-content .content-box-text {
+  width:198px;
+  height:100px;
+}
+.content-box-content .content-box-text p {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:21px;
+  color:#1a292b;
+}

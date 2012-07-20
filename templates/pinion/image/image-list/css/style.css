@@ -1,0 +1,14 @@
+.image-list { clear:both; }
+.image-list:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.image-list img {
+  float:left;
+  width:220px;
+  margin:5px;
+}

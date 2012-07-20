@@ -1,0 +1,16 @@
+.main-home-container h1.pinion-main-home-headline {
+  font-family:'Asap', sans-serif;
+  font-style:italic;
+  color:#1a292b;
+  font-size:30px;
+  line-height:38px;
+  width:350px;
+}
+.main-home-container h2.pinion-main-home-headline {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#184f50;
+  font-size:18px;
+  line-height:21px;
+  font-weight:100;
+  width:350px;
+}

@@ -1,0 +1,87 @@
+#pinion-backend .pinion-backend-renderer-SearchRenderer {
+  color:#1a292b;
+  min-height:40px;
+  min-width:650px;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-icon-search {
+  float:left;
+  display:inline;
+  margin:10px 5px 10px 20px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-120px 0;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search {
+  float:left;
+  display:inline;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:200px;
+  margin-right:10px;
+  line-height:22px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticBar {
+  float:left;
+  margin-top:10px;
+  width:360px;
+  -webkit-border-radius:5px;
+  -khtml-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #8c9b9b;
+  background:#ffffff;
+  width:300px;
+  height:20px;
+  position:relative;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticBar > .pinion-search-bar {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  background:#1a292b;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue {
+  float:left;
+  display:inline;
+  margin-top:15px;
+  margin-bottom:10px;
+  margin-right:20px;
+  line-height:22px;
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-percent { display:block; }
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-absolut { display:none; }
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-percent, #pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-absolut {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-weight:900;
+  padding-left:10px;
+  width:70px;
+  height:15px;
+  line-height:15px;
+  cursor:pointer;
+  opacity:0.5;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter:alpha(opacity=50);
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-percent:hover, #pinion-backend .pinion-backend-renderer-SearchRenderer .pinion-search-statisticValue > .pinion-search-statisticValue-absolut:hover {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter:alpha(opacity=100);
+}
+#pinion-backend .pinion-backend-renderer-SearchRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

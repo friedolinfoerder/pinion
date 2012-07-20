@@ -1,0 +1,75 @@
+@import url("http://fonts.googleapis.com/css?family=Asap:700italic,700,400italic,400");
+body { background:url("../../../../../pinion/assets/images/backgrounds/noise-bg.png"); }
+#pinion-addPage {
+  position:absolute;
+  top:33%;
+  left:50%;
+  margin-left:-350px;
+  margin-top:-100px;
+  width:700px;
+  height:300px;
+}
+#pinion-addPage > .pinion-logo {
+  position:absolute;
+  top:0px;
+  left:20px;
+  width:184px;
+  height:95px;
+  background:url('../../../../../pinion/assets/images/pinion-logo-white.png');
+}
+#pinion-addPage > .pinion-box {
+  width:100%;
+  padding-bottom:25px;
+  background:#edf2f2;
+  position:relative;
+  display:block;
+}
+#pinion-addPage > .pinion-box > .pinion-no-page {
+  position:absolute;
+  top:30px;
+  right:100px;
+  font-family:'Asap', sans-serif;
+  font-weight:700;
+  font-style:italic;
+  font-size:40px;
+  color:#185859;
+}
+#pinion-addPage > .pinion-box > .pinion-no-page-found {
+  margin-top:120px;
+  padding-top:120px;
+  margin-left:50px;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size:18px;
+  color:#185859;
+  margin-bottom:15px;
+  line-height:30px;
+}
+#pinion-addPage > .pinion-box > .pinion-no-page-found > p > a { color:#107886; }
+#pinion-addPage > .pinion-box > .pinion-no-page-found > p > a:hover { color:#185859; }
+#pinion-addPage > .pinion-box > .pinion-create-page { margin-left:50px; }
+#pinion-addPage > .pinion-box > .pinion-create-page > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size:18px;
+  color:#185859;
+}
+#pinion-addPage > .pinion-backend-input-Button {
+  width:100%;
+  border-top:1px solid #8c9b9b;
+  background:#edf2f2;
+}
+#pinion-addPage > .pinion-backend-input-Button > input {
+  margin:12px 0px 20px 50px;
+  height:27px;
+  -webkit-border-radius:5px;
+  -khtml-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #8c9b9b;
+  cursor:pointer;
+  font-weight:900;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#1a292b;
+  padding:0 10px;
+}

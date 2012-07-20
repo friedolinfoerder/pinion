@@ -1,0 +1,24 @@
+.pinion-facts .pinion-facts-item { padding:5px 0; }
+.pinion-facts .pinion-facts-item:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+.pinion-facts .pinion-facts-item .left {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  color:#394448;
+  font-size:12px;
+  float:left;
+}
+.pinion-facts .pinion-facts-item .right {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-style:italic;
+  color:#394448;
+  font-size:12px;
+  font-style:italic;
+  padding-right:33px;
+  float:right;
+}

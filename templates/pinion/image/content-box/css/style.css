@@ -1,0 +1,12 @@
+.content-box .content-box-image {
+  position:absolute;
+  top:35px;
+  left:0;
+  width:218px;
+  height:120px;
+  background:#ffffff;
+}
+.content-box .content-box-image img {
+  width:218px;
+  height:120px;
+}

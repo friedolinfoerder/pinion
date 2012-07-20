@@ -1,0 +1,137 @@
+#pinion-backend .pinion-backend-renderer-UserRenderer {
+  color:#1a292b;
+  min-height:80px;
+  min-width:300px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer a {
+  color:#1a292b;
+  text-decoration:none;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-userPic {
+  position:absolute;
+  left:12px;
+  top:12px;
+  height:50px;
+  width:50px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper { padding:12px 160px 12px 85px; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper { padding-bottom:6px; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper .pinion-username {
+  font-size:16px;
+  font-weight:900;
+  float:left;
+  margin-right:15px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper .pinion-userRule {
+  font-size:12px;
+  float:left;
+  margin-top:1px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper .pinion-userRule div.pinion-backend-icon-rule {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-720px 0;
+  width:15px;
+  height:12px;
+  margin-right:3px;
+  float:left;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper .pinion-userRule.dirty span { color:#88a852; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-headlineWrapper .pinion-userRule.dirty div.pinion-backend-icon-rule {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-720px -100px;
+  width:15px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-user { font-size:12px; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-user:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-user span.pinion-fullName {
+  font-size:12px;
+  float:left;
+  margin-right:10px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-user span.pinion-mail {
+  font-size:12px;
+  font-style:italic;
+  float:left;
+  color:#107886;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-textWrapper .pinion-user span.pinion-mail:hover { color:#185859; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign {
+  position:relative;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign .pinion-text {
+  display:none;
+  position:absolute;
+  right:23px;
+  top:3px;
+  font-weight:900;
+  white-space:nowrap;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign:hover .pinion-text {
+  display:block;
+  color:#8c9b9b;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign .pinion-backend-icon-online-grey {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-660px -120px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign .pinion-backend-icon-online-grey.pinion-online {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-660px -100px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-onlineSign:hover .pinion-online + .pinion-text { color:#88a852; }
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-messageSign {
+  position:relative;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-messageSign .pinion-backend-icon-message-grey {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-680px -120px;
+  width:20px;
+  height:20px;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-messageSign .pinion-text {
+  display:none;
+  position:absolute;
+  right:23px;
+  top:3px;
+  font-weight:900;
+  white-space:nowrap;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-messageSign:hover .pinion-backend-icon-message-grey {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-680px -20px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer .pinion-renderer-bar .pinion-messageSign:hover .pinion-text {
+  display:block;
+  color:#185859;
+}
+#pinion-backend .pinion-backend-renderer-UserRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}

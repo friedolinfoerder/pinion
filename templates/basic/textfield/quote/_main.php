@@ -1,0 +1,1 @@
+<div class="textfield quote"><?php $text() ?></div>

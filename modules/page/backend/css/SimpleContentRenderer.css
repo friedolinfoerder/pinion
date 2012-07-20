@@ -1,0 +1,201 @@
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer {
+  color:#1a292b;
+  min-height:90px;
+  min-width:400px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer a {
+  color:#1a292b;
+  text-decoration:none;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper {
+  float:left;
+  margin:10px 100px 10px 20px;
+  font-size:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-visibleInfo { margin-bottom:8px; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-visibleInfo:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-visibleInfo > .pinion-icon {
+  float:left;
+  margin-right:5px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-860px 0;
+  width:16px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-visibleInfo > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:11px;
+  float:left;
+  font-weight:100;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-page { margin-bottom:8px; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-page:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-page > .pinion-icon {
+  float:left;
+  margin-left:2px;
+  margin-right:7px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-1000px 0;
+  width:12px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-page > a.pinion-page-name {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:11px;
+  float:left;
+  font-weight:100;
+  cursor:pointer;
+  color:#107886;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-page > a.pinion-page-name:hover { color:#185859; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-area { margin-bottom:8px; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-area:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-area > .pinion-icon {
+  float:left;
+  margin-left:2px;
+  margin-right:7px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-960px 0;
+  width:12px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-area > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:11px;
+  float:left;
+  font-weight:100;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-template:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-template > .pinion-icon {
+  float:left;
+  margin-left:2px;
+  margin-right:7px;
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-980px 0;
+  width:12px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-textWrapper .pinion-backend-content-template > .pinion-text {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-size:11px;
+  float:left;
+  font-weight:100;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-renderer-bar .pinion-content-changeVisibility {
+  position:relative;
+  cursor:pointer;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-renderer-bar .pinion-content-changeVisibility .pinion-text {
+  display:none;
+  position:absolute;
+  right:23px;
+  top:3px;
+  font-weight:900;
+  white-space:nowrap;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-renderer-bar .pinion-content-changeVisibility .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-300px -120px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-renderer-bar .pinion-content-changeVisibility:hover .pinion-text {
+  display:block;
+  color:#e1604b;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer .pinion-renderer-bar .pinion-content-changeVisibility:hover .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-280px -80px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.dirty .pinion-backend-icon-dirty {
+  position:absolute;
+  top:5px;
+  right:5px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-textWrapper .pinion-backend-content-visibleInfo > .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-840px 0;
+  width:16px;
+  height:12px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-content-changeVisibility { cursor:pointer; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-content-changeVisibility .pinion-text { color:#88a852; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-content-changeVisibility .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-280px -120px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-content-changeVisibility:hover .pinion-text { display:block; }
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible .pinion-content-changeVisibility:hover .pinion-icon {
+  background-image:url('../../../../pinion/assets/images/icons/pinion-icons.png');
+  background-position:-300px -100px;
+  width:20px;
+  height:20px;
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter:alpha(opacity=100);
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible > .pinion-textWrapper {
+  opacity:0.4;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter:alpha(opacity=40);
+}
+#pinion-backend .pinion-backend-renderer-SimpleContentRenderer.pinion-invisible:after {
+  background:none;
+  height:0;
+  width:0;
+  position:static;
+}

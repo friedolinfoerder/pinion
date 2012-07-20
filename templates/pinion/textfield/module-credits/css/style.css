@@ -1,0 +1,22 @@
+.pinion-module-credits {
+  float:left;
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  line-height:22px;
+  color:#394448;
+  padding-top:3px;
+  padding-bottom:3px;
+  height:44px;
+  width:400px;
+  padding-right:20px;
+}
+.pinion-module-credits ul, .pinion-module-credits ol {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  line-height:22px;
+  color:#394448;
+}
+.pinion-module-credits ul > li, .pinion-module-credits ol > li {
+  float:left;
+  margin-right:22px;
+}

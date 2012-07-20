@@ -1,0 +1,17 @@
+#footer-content ul.footer-menu { padding-top:10px; }
+#footer-content ul.footer-menu:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+#footer-content ul.footer-menu > li {
+  float:right;
+  margin-left:15px;
+}
+#footer-content ul.footer-menu > li > a {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+}
